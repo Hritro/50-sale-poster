@@ -1,0 +1,38 @@
+.container{
+    position: relative;
+    /* background-color: gray; */
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.redbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 700px;
+}
+
+.gift{
+    position: absolute;
+    left: 10%;
+    height: 300px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.girl{
+    position: absolute;
+    right: 0;
+    height: 300px;
+    width: 300px;
+}
+
+.discount{
+    position: absolute;
+    height: 150px;
+    right: 30%;
+    top: 15%;
+    z-index: 1;
+
+}
